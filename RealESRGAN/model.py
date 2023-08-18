@@ -13,15 +13,15 @@ from .utils import pad_reflect, split_image_into_overlapping_patches, stich_toge
 
 HF_MODELS = {
     2: dict(
-        repo_id='sberbank-ai/Real-ESRGAN',
-        filename='RealESRGAN_x2.pth',
+        repo_id='Rainy-hh/Real-ESRGAN',
+        filename='RealESRGAN_x2plus.pth',
     ),
     4: dict(
-        repo_id='sberbank-ai/Real-ESRGAN',
-        filename='RealESRGAN_x4.pth',
+        repo_id='Rainy-hh/Real-ESRGAN',
+        filename='RealESRGAN_x4plus.pth',
     ),
     8: dict(
-        repo_id='sberbank-ai/Real-ESRGAN',
+        repo_id='Rainy-hh/Real-ESRGAN',
         filename='RealESRGAN_x8.pth',
     ),
 }
